@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    background: black;
+    color:white;
+}
+section sub {
+    width: 50px;
+}
+section  {
+    display: flex;
+    flex-direction: row;
+}
+@media (min-width: 200px) and (max-width: 800px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    section sub {
+        width: 30px;
+    }
+}
